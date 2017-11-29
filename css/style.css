@@ -1,0 +1,51 @@
+
+/*where is this gray font coming from?!?!*/
+.navbar {
+  font-family: 'Raleway', sans-serif;
+  color: white !important;
+  margin-bottom: 0;
+  border-radius: 0;
+  background-color: #685c59;
+  border-width: 0px;
+}
+
+/*slider*/
+.carousel-inner img {
+  width: 100%;
+  margin: auto;
+  min-height:200px;
+}
+
+.carousel-caption {
+  font-family: 'Raleway', sans-serif;
+  color: black;
+}
+
+/*slider title text*/
+body h3 {
+  font-size: 40px;
+}
+
+/*bottom images*/
+.container {
+  font-family: 'Raleway', sans-serif;
+}
+
+/*bottom tables*/
+.well {
+  font-family: 'Raleway', sans-serif;
+}
+
+footer {
+  font-family: 'Gochi Hand', cursive !important;
+  color: white;
+  background-color: #5a6787;
+  padding: 25px;
+}
+
+/* responsive - fuck phones, wont display text under 600px res */
+@media (max-width: 600px) {
+.carousel-caption {
+  display: none;
+}
+}
